@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="dest/assets/css/app.css" />
+
+    <title>Account | OMME Music - Area Sposi</title>
+  </head>
+  <body class="body-bg body-bg--profile">
+    <div class="container">
+      <!-- AVATAR -->
+      <section class="avatar">
+        <figure class="avatar__thumbnail">
+          <img src="dest/assets/img/couple-avatar.jpg" alt="Martina e Luca" />
+        </figure>
+
+        <div class="avatar__link-back">
+          <a href="profile.html">
+            <svg class="icon">
+              <use xlink:href="dest/assets/img/feather-sprite.svg#arrow-left" />
+            </svg>
+          </a>
+        </div>
+
+        <div class="avatar__nickname">Martina e Luca</div>
+
+        <div class="avatar__wedding-date">12 giugno 2021</div>
+      </section>
+
+      <!-- COUNTDOWN -->
+      <section class="countdown">
+        <span>Mancano</span>
+
+        <div class="countdown__grid">
+          <div class="countdown__card card">
+            <span class="countdown__card--number">13</span>
+            <span class="countdown__card--label">mesi</span>
+          </div>
+
+          <div class="countdown__card card">
+            <span class="countdown__card--number">27</span>
+            <span class="countdown__card--label">giorni</span>
+          </div>
+
+          <div class="countdown__card card">
+            <span class="countdown__card--number">13</span>
+            <span class="countdown__card--label">ore</span>
+          </div>
+        </div>
+
+        <span class="lead">al vostro <strong>matrimonio</strong>!</span>
+      </section>
+    </div>
+
+    <!-- PANEL -->
+    <section class="panel">
+      <section class="tabs">
+        <nav class="tabs__nav">
+          <a href="#" class="tabs__nav--active" id="tabNav1">Le vostre info</a>
+          <a href="#" id="tabNav2">Il vostro matrimonio</a>
+        </nav>
+
+        <div class="tabs__content">
+          <div class="tab__pane tab__pane--active" id="tabPane1">
+            <div class="user">
+              <div class="user__icon">
+                <svg class="icon">
+                  <use xlink:href="dest/assets/img/feather-sprite.svg#user" />
+                </svg>
+              </div>
+              <div class="user__content">
+                <strong>Martina Rossi</strong>
+                <ul class="list list--unstyled">
+                  <li>333 12 34 567</li>
+                  <li>martina.rossi@gmail.com</li>
+                  <li>via delle Rose 4, Bergamo</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab__pane" id="tabPane2">tab 2 content here</div>
+        </div>
+      </section>
+    </section>
+
+    <!-- NAVBAR -->
+    <nav class="navbar container">
+      <a class="navbar__link navbar__link--active" href="#">
+        <svg class="icon">
+          <use xlink:href="dest/assets/img/feather-sprite.svg#home" />
+        </svg>
+      </a>
+      <a class="navbar__link" href="#">
+        <svg class="icon">
+          <use xlink:href="dest/assets/img/feather-sprite.svg#list" />
+        </svg>
+      </a>
+      <a class="navbar__link" href="#">
+        <svg class="icon">
+          <use xlink:href="dest/assets/img/feather-sprite.svg#tag" />
+        </svg>
+      </a>
+      <a class="navbar__link" href="#">
+        <svg class="icon">
+          <use xlink:href="dest/assets/img/feather-sprite.svg#gift" />
+        </svg>
+      </a>
+      <a class="navbar__link" href="#">
+        <svg class="icon">
+          <use xlink:href="dest/assets/img/feather-sprite.svg#award" />
+        </svg>
+      </a>
+      <a class="navbar__link" href="#">
+        <svg class="icon">
+          <use xlink:href="dest/assets/img/feather-sprite.svg#user" />
+        </svg>
+      </a>
+    </nav>
+
+    <!-- JS -->
+    <script src="dest/assets/js/feather-icons.js"></script>
+    <script src="dest/assets/js/app.js"></script>
+  </body>
+</html>

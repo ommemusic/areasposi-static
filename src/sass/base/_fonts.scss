@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Sofia Pro";
+  src: url("SofiaProRegular.eot");
+  src: local("Sofia Pro Regular"), local("SofiaProRegular"),
+    url("../fonts/sofia-pro/SofiaProRegular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/sofia-pro/SofiaProRegular.woff2") format("woff2"),
+    url("../fonts/sofia-pro/SofiaProRegular.woff") format("woff"),
+    url("../fonts/sofia-pro/SofiaProRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sofia Pro";
+  src: url("SofiaProBold.eot");
+  src: local("Sofia Pro Bold"), local("SofiaProBold"),
+    url("../fonts/sofia-pro/SofiaProBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/sofia-pro/SofiaProBold.woff2") format("woff2"),
+    url("../fonts/sofia-pro/SofiaProBold.woff") format("woff"),
+    url("../fonts/sofia-pro/SofiaProBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rift";
+  src: local("Rift Medium"), local("Rift-Medium"),
+    url("../fonts/rift/Rift-Medium.woff2") format("woff2"),
+    url("../fonts/rift/Rift-Medium.woff") format("woff"),
+    url("../fonts/rift/Rift-Medium.ttf") format("truetype"),
+    url("../fonts/rift/Rift-Medium.svg#Rift-Medium") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rift";
+  src: local("Rift Bold"), local("Rift-Bold"),
+    url("../fonts/rift/Rift-Bold.woff2") format("woff2"),
+    url("../fonts/rift/Rift-Bold.woff") format("woff"),
+    url("../fonts/rift/Rift-Bold.ttf") format("truetype"),
+    url("../fonts/rift/Rift-Bold.svg#Rift-Bold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rift";
+  src: local("Rift Regular"), local("Rift-Regular"),
+    url("../fonts/rift/Rift-Regular.woff2") format("woff2"),
+    url("../fonts/rift/Rift-Regular.woff") format("woff"),
+    url("../fonts/rift/Rift-Regular.ttf") format("truetype"),
+    url("../fonts/rift/Rift-Regular.svg#Rift-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

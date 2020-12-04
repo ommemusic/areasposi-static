@@ -1,0 +1,38 @@
+.tabs {
+  &__nav {
+    display: flex;
+
+    a {
+      border-bottom: 2px solid var(--color-bg-dark);
+      color: var(--color-white);
+      display: flex;
+      font-weight: bold;
+      flex: auto;
+      padding: 0 1rem 1rem;
+      text-align: center;
+    }
+
+    &.active {
+      border-bottom: 2px solid var(--color-primary) !important;
+    }
+  }
+
+  &__content {
+    position: relative;
+  }
+}
+
+.tab {
+  &__pane {
+    background-color: var(--color-bg-dark-2);
+    display: none;
+    height: 100vh;
+    padding: 1.5rem 0;
+    position: absolute;
+    width: 100%;
+
+    &.active {
+      display: block;
+    }
+  }
+}

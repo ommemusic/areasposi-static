@@ -1,0 +1,29 @@
+.countdown {
+  margin: 0 auto;
+  max-width: 33rem;
+  text-align: center;
+
+  &__grid {
+    align-items: center;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1rem auto 2rem;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    line-height: 1;
+
+    &--number {
+      color: var(--color-secondary);
+      font-size: 6.5rem;
+    }
+
+    &--label {
+      text-transform: uppercase;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.progress {
+  &__bar {
+    display: flex;
+    height: 0.8rem;
+    margin: 1rem auto 0;
+    width: 8rem;
+
+    &--3 {
+      .progress__token {
+        width: calc(100% / 3);
+      }
+    }
+
+    &--5 {
+      .progress__token {
+        width: calc(100% / 5);
+      }
+    }
+  }
+
+  &__token {
+    background-color: var(--color-white);
+    display: block;
+    height: 0.8rem;
+
+    &:not(:last-child) {
+      margin-right: 3px;
+    }
+
+    &--secondary {
+      background-color: var(--color-secondary);
+    }
+  }
+
+  &__counter {
+    display: flex;
+    font-size: 1.4rem;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 8rem;
+  }
+}

@@ -1,0 +1,52 @@
+.popup {
+  align-items: center;
+  background-color: rgba(#182126, 0.8);
+  bottom: 0;
+  display: inline-flex;
+  justify-content: center;
+  left: 0;
+  opacity: 0;
+  padding: 7rem 4rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: 0.3s;
+  visibility: hidden;
+  z-index: 99999 !important;
+
+  &--open {
+    opacity: 1;
+    visibility: visible;
+
+    .card {
+      transform: translateY(0);
+    }
+  }
+
+  &__card {
+    max-width: 40rem;
+    padding: 3rem 2rem;
+    position: relative;
+    text-align: center;
+    transform: translateY(100%);
+    transition: ease-in-out 0.3s;
+  }
+
+  &__close {
+    align-items: center;
+    background-color: var(--color-primary);
+    border-radius: 100px;
+    color: var(--color-white);
+    display: flex;
+    height: 3rem;
+    justify-content: center;
+    position: absolute;
+    right: -1.5rem;
+    top: -1.5rem;
+    width: 3rem;
+
+    .icon {
+      height: 1.7rem;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.list {
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: 4rem;
+    }
+
+    a {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__icon {
+    display: flex;
+    flex: 0 0 6rem;
+  }
+
+  &__content {
+    color: white;
+    flex: 2;
+    margin: 0 1rem 0 2rem;
+  }
+
+  &__title {
+    line-height: 1;
+    margin: 0;
+    margin-bottom: 0.5rem !important;
+  }
+
+  &__description {
+    font-size: 1.4rem;
+    line-height: 1.7;
+  }
+
+  &__arrow {
+    display: flex;
+  }
+
+  &--unstyled {
+    list-style: none;
+  }
+}

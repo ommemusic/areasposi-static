@@ -1,0 +1,37 @@
+.navbar {
+  align-items: center;
+  background-color: rgba(#182126, 0.95);
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 9999;
+
+  &__link {
+    align-items: center;
+    color: var(--color-white);
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+
+    &:hover {
+      color: var(--color-white);
+    }
+
+    .icon {
+      stroke: var(--color-gray);
+    }
+
+    &.active {
+      background-color: var(--color-bg-dark-2);
+
+      .icon {
+        stroke: var(--color-white);
+      }
+    }
+  }
+}

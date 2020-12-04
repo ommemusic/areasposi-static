@@ -1,0 +1,18 @@
+.repertoire {
+  display: flex;
+  flex-direction: column;
+
+  &__moment {
+    display: flex;
+    justify-content: space-between;
+
+    span {
+      flex: 1;
+    }
+  }
+
+  .btn {
+    margin-left: auto;
+    margin-top: 2rem;
+  }
+}

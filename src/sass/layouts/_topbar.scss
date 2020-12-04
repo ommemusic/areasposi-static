@@ -1,0 +1,41 @@
+.topbar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+
+  &__left {
+    .couple-avatar {
+      clip-path: circle(50% at 50% 50%);
+      display: block;
+      height: 3rem;
+      width: 3rem;
+
+      img {
+        height: 3rem;
+        object-fit: cover;
+        width: 3rem;
+      }
+    }
+  }
+
+  &__center {
+    .couple-nickname {
+      color: var(--color-white);
+      font-family: var(--font-special);
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+
+  &__right {
+    a {
+      color: var(--color-white);
+    }
+
+    svg {
+      display: flex;
+    }
+  }
+}

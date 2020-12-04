@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; //1rem = 10px
+}
+
+body {
+  background-color: var(--color-bg-dark);
+  color: var(--color-white);
+  font-family: var(--font-main);
+  font-size: var(--font-size);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus {
+  outline: none;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: 0.3s;
+
+  &:hover {
+    color: var(--color-secondary);
+  }
+}
+
+img {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.body-bg {
+  background-size: cover;
+
+  &--home {
+    background: linear-gradient(rgba(#182126, 0.95), rgba(#182126, 0.95)),
+      url(../img/home-bg.jpg) no-repeat center fixed;
+  }
+
+  &--profile {
+    background: linear-gradient(rgba(#182126, 0.95), rgba(#182126, 0.95)),
+      url(../img/couple-bg.jpg) no-repeat center fixed;
+  }
+}
